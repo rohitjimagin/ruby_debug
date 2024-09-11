@@ -13,7 +13,7 @@ bundle install
 ```
 
 ### 2. Install the Debugger Extension in VSCode
-Install the VSCode Debugger for Ruby by Koichi Sasada from the marketplace.
+Install the [VSCode rdbg Ruby Debugger](https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg) from the marketplace.
 
 ### 3. Add Breakpoints
 Place breakpoints in the desired file within your Ruby code in VSCode.
