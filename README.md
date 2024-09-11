@@ -1,7 +1,7 @@
 # Using Debugger in VSCode for Ruby
 
 ### Video Reference
-![Debugging in VSCode](https://drive.google.com/file/d/1LBHx_uSnzmL5Uirl3kaifrX2rCmee7Bq/view?usp=sharing)
+[Debugging in VSCode](https://drive.google.com/file/d/1LBHx_uSnzmL5Uirl3kaifrX2rCmee7Bq/preview)
 
 Follow these steps to set up and use the Ruby debugger in VSCode:
 
