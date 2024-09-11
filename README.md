@@ -18,7 +18,7 @@ Install the [VSCode rdbg Ruby Debugger](https://marketplace.visualstudio.com/ite
 ### 3. Add Breakpoints
 Place breakpoints in the desired file within your Ruby code in VSCode.
 
-### 4. Create launch.json File
+### 5. Create launch.json File
 In your project, create a .vscode folder (if it doesn't exist already) and add a launch.json file with the following content:
 
 ```json
@@ -34,7 +34,15 @@ In your project, create a .vscode folder (if it doesn't exist already) and add a
 }
 ```
 
-### 5. Video Reference
+### 5. Run the Debugger in VSCode
+Press `F5` or click the "Debug" button in VSCode to start the debugger. 
+
+### 6. Run the rails server with the debugger
+```bash
+RUBY_DEBUG_OPEN=true bin/rails server
+```
+
+### 7. Video Reference
 
 <!-- add video from ./videos/debug.mov -->
 
