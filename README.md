@@ -1,11 +1,11 @@
-# Using Debugger in VSCode for Ruby
+# 🐞 Using Debugger in VSCode for Ruby
 
-### Video Reference
+### 🎥 Video Reference
 [Debugging in VSCode](https://drive.google.com/file/d/1LBHx_uSnzmL5Uirl3kaifrX2rCmee7Bq/preview)
 
 Follow these steps to set up and use the Ruby debugger in VSCode:
 
-## 1. Install the Debug Gem
+## 1. 💎 Install the Debug Gem
 Add the following line to your `Gemfile`:
 ```ruby
 gem 'debug'
@@ -15,13 +15,13 @@ Then run:
 bundle install
 ```
 
-### 2. Install the Debugger Extension in VSCode
+### 2. 🔧 Install the Debugger Extension in VSCode
 Install the [VSCode rdbg Ruby Debugger](https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg) from the marketplace.
 
-### 3. Add Breakpoints
+### 3. 🚩 Add Breakpoints
 Place breakpoints in the desired file within your Ruby code in VSCode.
 
-### 4. Create launch.json File
+### 4. 📁 Create launch.json File
 In your project, create a .vscode folder (if it doesn't exist already) and add a launch.json file with the following content:
 
 ```json
@@ -37,12 +37,12 @@ In your project, create a .vscode folder (if it doesn't exist already) and add a
 }
 ```
 
-### 5. Run the rails server with the debugger
+### 5. 🚀 Run the rails server with the debugger
 ```bash
 RUBY_DEBUG_OPEN=true bin/rails server
 ```
 
-### 6. Run the Debugger in VSCode
+### 6. 🏁 Run the Debugger in VSCode
 Press `F5` or click the "Debug" button in VSCode to start the debugger. 
 
 
